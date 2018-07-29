@@ -531,23 +531,15 @@
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
+                    minlength: 3
                 },
-                email: "required",
-
-                guest: {
-                    required: true
-                },
-
-                events: {
-                    required: true
-                }
+                contact: "required"
 
             },
 
             messages: {
                 name: "Please enter your name",
-                email: "Please enter your email",
+                contact: "Please enter your contact information",
                 guest: "Select your number of guest",
                 events: "Select your event list"
             },

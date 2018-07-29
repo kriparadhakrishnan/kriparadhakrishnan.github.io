@@ -255,7 +255,7 @@
                                 <div class="col col-md-6">
                                     <div class="story-text right-align-text">
                                         <h3>First meet</h3>
-                                        <span class="date">Jan 12 2017</span>
+                                        <span class="date">Jan 12 2018</span>
                                         <p> "If I profane with my unworthiest hand 
                                             <br>This holy shrine, the gentle sin is this:
                                             <br>My lips, two blushing pilgrims, ready stand
@@ -285,7 +285,7 @@
                                         <i class="fa fa-heart"></i>
                                     </span>
                                     <div class="story-text">
-                                        <h3>First date</h3>
+                                        <h3>The Proposal</h3>
                                         <span class="date">Feb 14 2018</span>
                                         <p>"Their first date had been cracking sidewalks and watery sunshine that struggled past the clouds. They had made several loops of their block, how many neither of them can recall."</p>
                                     </div>
@@ -405,8 +405,46 @@
         <!-- end events-section -->
 
 
-        <!-- start inportant-people-section -->
-        <!-- end inportant-people-section -->
+
+        <!-- start rsvp-section -->
+        <section class="rsvp-section section-padding parallax" data-bg-image="images/rsvp-bg.jpg" data-speed="7" id="rsvp">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title-white">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Send Your Wishes</h2>
+                        </div>
+                    </div>
+                </div> <!-- end section-title -->
+
+                <div class="row content">
+                    <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <p>Please take a moment to send us your love.</p>
+                        <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
+                            <div class="col col-sm-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name*">
+                            </div>
+                            <div class="col col-sm-6">
+                                <input type="email" name="email" class="form-control" placeholder="Email/Phone">
+                            </div>
+                            <div class="col col-sm-12">
+                                <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
+                            </div>
+                            <div class="col col-sm-12 submit-btn">
+                                <button type="submit" class="submit">Send Wishes</button>
+                                <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
+                            </div>
+                            <div class="col col-md-12 success-error-message">
+                                <div id="success">Thank you</div>
+                                <div id="error"> Error occurred while sending email. Please try again later. </div>
+                            </div>
+                        </form>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+        <!-- end rsvp-section -->
 
 
         <!-- start gallery-section -->
@@ -427,7 +465,7 @@
                             <ul>
                                 <li><a data-filter="*" href="#" class="current">All</a></li>
                                 <li><a data-filter=".engagement" href="#">Engagement</a></li>
-                                <li><a data-filter=".ceremony" href="#">Ceremony</a></li>
+                                <li><a data-filter=".meet" href="#">Meet</a></li>
                                 <li><a data-filter=".party" href="#"></a></li>
                             </ul>
                         </div>
@@ -438,7 +476,7 @@
                                     <img src="images/gallery/img-1.jpg" alt class="img img-responsive">
                                 </a>
                             </div>
-                            <div class="grid wedding ceremony">
+                            <div class="grid wedding meet">
                                 <a href="images/gallery/img-2.jpg" class="fancybox" data-fancybox-group="gall-1">
                                     <img src="images/gallery/img-2.jpg" alt class="img img-responsive">
                                 </a>
@@ -448,7 +486,7 @@
                                     <img src="images/gallery/img-3.jpg" alt class="img img-responsive">
                                 </a>
                             </div>
-                            <div class="grid ceremony">
+                            <div class="grid meet">
                                 <a href="images/gallery/img-4.jpg" class="fancybox" data-fancybox-group="gall-1">
                                     <img src="images/gallery/img-4.jpg" alt class="img img-responsive">
                                 </a>
@@ -489,11 +527,6 @@
             </div> <!-- end container -->
         </section>
         <!-- end gallery-section -->
-
-
-
-        <!-- start rsvp-section -->
-        <!-- end rsvp-section -->
 
 
         <!-- start getting-there-section -->
