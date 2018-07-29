@@ -421,18 +421,18 @@
                 <div class="row content">
                     <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                         <p>Please take a moment to send us your love.</p>
-                        <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
+                        <form id="rsvp-form" class="form validate-rsvp-form row" method="post" action="https://formspree.io/kripawedsrahul@gmail.com">
                             <div class="col col-sm-6">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name*">
                             </div>
                             <div class="col col-sm-6">
-                                <input type="email" name="email" class="form-control" placeholder="Email/Phone">
+                                <input type="text" name="contact" class="form-control" placeholder="Email/Phone">
                             </div>
                             <div class="col col-sm-12">
                                 <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
                             </div>
                             <div class="col col-sm-12 submit-btn">
-                                <button type="submit" class="submit">Send Wishes</button>
+                                <button type="submit" class="submit" name="send">Send Wishes</button>
                                 <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
                             </div>
                             <div class="col col-md-12 success-error-message">
